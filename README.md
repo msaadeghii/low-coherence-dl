@@ -3,19 +3,19 @@
 
 This repository contains MATLAB functions and a demo script implementing and testing the low-coherence dictionary learning (DL) algorithms proposed in [1], namely, constrained incoherent DL (`CINC-DL`) and regularized incoherent DL (`RINC-DL`). We have also implemented the algorithms proposed in [2], bounded self-coherence DL (`BSC-DL`) as well as [3], iterative projections and rotations DL (`IPR-DL`), for comparison.
 
-**Copyright notice** We have largely used the the OMP and KSVD implementations written by [Ron Rubinstein](rhttps://www.cs.technion.ac.il/~ronrubin/) to write our codes.
+**Copyright notice:** We have largely used the the OMP and KSVD implementations written by [Ron Rubinstein](rhttps://www.cs.technion.ac.il/~ronrubin/) to write our codes.
 
-1. Installation
+## Installation
 
 Prior to use this package, you need to install the [OMP and KSVD toolboxes](https://www.cs.technion.ac.il/~ronrubin/software.html). Then, to install the current package, simply run `setup.m`.
 
-2. Package description
+## Package description
 
-⋅⋅* `DL_algorithms`: MATLAB implementations of our proposed low-coherence dictionary learning algorithms, namely, `RINC-DL` and `CINC-DL`, together with two existing algorithms, namely, `BSC-DL` [2] and `IPR-DL` [3].
+- `DL_algorithms`: MATLAB implementations of our proposed low-coherence dictionary learning algorithms, namely, `RINC-DL` and `CINC-DL`, together with two existing algorithms, namely, `BSC-DL` [2] and `IPR-DL` [3].
 
-⋅⋅* `Test_images`: natural images used to test different low-coherence DL algorithms.
+- `Test_images`: natural images used to test different low-coherence DL algorithms.
 
-⋅⋅* `demo.m`: demo script to apply different low-coherence DL algorithms on natural image patches.
+- `demo.m`: demo script to apply different low-coherence DL algorithms on natural image patches.
 
 ## References
 
