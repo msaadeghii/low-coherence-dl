@@ -3,7 +3,7 @@
 
 This repository contains MATLAB functions and a demo script implementing and testing the low-coherence dictionary learning (DL) algorithms proposed in [1], namely, constrained incoherent DL (`CINC-DL`) and regularized incoherent DL (`RINC-DL`). We have also implemented the algorithms proposed in [2], bounded self-coherence DL (`BSC-DL`) as well as [3], iterative projections and rotations DL (`IPR-DL`), for comparison.
 
-**Copyright notice:** We have largely used the the OMP and KSVD implementations written by [Ron Rubinstein](rhttps://www.cs.technion.ac.il/~ronrubin/) to write our codes.
+**Copyright notice:** We have largely used the the OMP and KSVD implementations written by [Ron Rubinstein](https://www.cs.technion.ac.il/~ronrubin/) to write our codes.
 
 ## Installation
 
